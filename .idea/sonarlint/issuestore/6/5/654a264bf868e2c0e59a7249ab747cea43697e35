@@ -1,0 +1,5 @@
+
+vsquid:S1450"ZRemove the "loginButton" field and declare it as a local variable in the relevant methods.(®¤½¯8‚£Á²‘,
+Rsquid:S1068"6Remove this unused "accessTokenTracker" private field.(¶°®Ô8×Ìž³‘,
+jsquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(²Ú±Ž8—ˆÕ±‘,
+Psquid:S1068"/Remove this unused "accessToken" private field.(¼Å‘øÿÿÿÿ8„²å³‘,
