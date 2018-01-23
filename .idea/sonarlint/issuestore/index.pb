@@ -1,6 +1,4 @@
 
-o
-?app/src/main/java/com/testadria/adriaalbumapp/MainActivity.java,6/5/654a264bf868e2c0e59a7249ab747cea43697e35
 <
 build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
 @
@@ -9,3 +7,7 @@ X
 (gradle/wrapper/gradle-wrapper.properties,f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
 P
  app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+y
+Iapp/src/main/java/com/testadria/adriaalbumapp/adapters/AlbumsAdapter.java,6/0/601e09f71fa6928dcacf8e31332d98122929c2cc
+z
+Japp/src/main/java/com/testadria/adriaalbumapp/activities/MainActivity.java,c/a/ca7e072a210d83d7583092c661637409f1230842
