@@ -43,7 +43,11 @@
                 <data android:scheme="@string/fb_login_protocol_scheme" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.PhotosActivity"></activity>
+        <activity android:name=".activities.PhotosActivity" />
+        <activity
+            android:name=".activities.PictureZoomActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme.FullScreen" />
     </application>
 
 </manifest>

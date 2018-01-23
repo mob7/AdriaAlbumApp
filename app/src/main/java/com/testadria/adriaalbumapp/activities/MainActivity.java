@@ -168,10 +168,7 @@ public class MainActivity extends AppCompatActivity implements IMainView {
             } else {
                 Log.d(TAG, response.getError().toString());
             }
-        } catch (
-                JSONException e)
-
-        {
+        } catch (JSONException e) {
             e.printStackTrace();
         }
     }

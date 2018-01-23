@@ -13,6 +13,7 @@ import android.widget.TextView;
 import com.squareup.picasso.Picasso;
 import com.testadria.adriaalbumapp.R;
 import com.testadria.adriaalbumapp.activities.PhotosActivity;
+import com.testadria.adriaalbumapp.activities.PictureZoomActivity;
 import com.testadria.adriaalbumapp.models.Album;
 
 import java.util.List;
@@ -43,9 +44,18 @@ public class AlbumPhotosAdapter extends BaseAdapter {
             mViewHolder = (AlbumPhotoViewHolder) convertView.getTag();
         }
 
-        String mAlbumPhoto = albumPhotoValues.get(position);
+        final String mAlbumPhoto = albumPhotoValues.get(position);
         if (!TextUtils.isEmpty(mAlbumPhoto))
             Picasso.with(context).load(mAlbumPhoto).into(mViewHolder.mAlbumImage);
+
+        mViewHolder.mAlbumImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(context, PictureZoomActivity.class);
+                i.putExtra("url", mAlbumPhoto);
+                context.startActivity(i);
+            }
+        });
 
         return convertView;
 
